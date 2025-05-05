@@ -1,150 +1,265 @@
-
-
 .body {
   width: 100% !important;
 }
 
 .nav-brand {
-    text-decoration: none;
-    font-size: 22px;
-    color: white;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
 }
 
-
-.navbar-nav a{
-
-    font-size: 20px;
-    margin: 0 10px;
-
+.navbar-nav a {
+  font-size: 20px;
+  margin: 0 10px;
 }
 
 /* 
 * Hero Section right side image!
  */
 
- h5 small {
-   padding-left: 13%;
- }
+h5 small {
+  padding-left: 13%;
+}
 
+.img-side {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.image-css {
+  margin: 0 auto;
+}
 
-  .img-side {
-    width: 100%;
-    margin: 0 auto;
-    margin-left: 2%;
-    margin-right: 2%;
+.list-description {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px auto;
+  padding-bottom: 20px;
+}
+
+/* Hero list section */
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+}
+.news-card {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+}
+.news-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Information Section! */
+
+.editor {
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.info-des {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+/*  Latest News Section!*/
+
+.latest-news-section {
+  background: #ff9f43;
+  width: 100%;
+}
+
+.news1-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.news1-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.news1-meta {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: #444;
+
+  font-weight: bold;
+}
+
+.news1-heading {
+  /* font-weight: bold; */
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+
+.view-all {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.view-all a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.list-group-item-2 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.list-group-item-2:hover {
+  background: #ff9f43;
+}
+
+.list-group-item-2 a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+/* Technology Section */
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.card-tech img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.featured {
+  position: relative;
+  color: white;
+}
+
+.featured img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.author-tag {
+  background-color: coral;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  align-self: flex-start;
+  margin-bottom: auto;
+}
+
+.overlay h4 {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .featured {
+    height: auto;
   }
-  .image-css {
-    margin: 0 auto;
-    
+
+  .featured img {
+    height: auto;
   }
+}
+/* Advertise section! */
 
-  .list-description {
-    font-weight: bold;
-    font-size: 20px;
-    margin: 10px auto;
-    padding-bottom: 20px;
-  
-  }
+.advertise-banner {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
-  /* Hero list section */
-  .card-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-    font-weight: bold;
-  }
-  .news-card {
-    position: relative;
-    overflow: hidden;
-    height: 300px;
-    border: none;
-    border-radius: 10px;
-  }
-  .news-card img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%; }
+.advertise-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
+.advertise-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6));
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
 
-    /* Information Section! */
+.advertise-text h2 {
+  font-weight: bold;
+  font-size: 26px;
+}
 
-    .editor {
-        font-size: 45px;
-        margin-top: 15px;
-        margin-bottom: 40px;
-    }
+.advertise-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
 
-    .info-des {
-        font-size: 22px;
-        margin-top: 15px;
-        margin-bottom: 40px;  
-     }
+.advertise-button {
+  background-color: coral;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.5s;
+  display: flex;
+  position: absolute;
+  right: 10%;
+  bottom: 35%;
+}
 
-     /*  Latest News Section!*/
-
-     .latest-news-section {
-      background: #ff9f43;
-       width: 100%;
-     }
-
-
-     .news1-title {
-      font-size: 50px;
-      font-weight: bold;
-    }
-
-    .news1-card img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-    
-    }
-
-    .news1-meta {
-      text-transform: uppercase;
-      font-size: 0.875rem;
-      color: #444;
-   
-      font-weight:bold ;
-    }
-
-    .news1-heading {
-      font-weight: bold;
-      font-size: 1.25rem;
-      margin-top: 0.5rem;
-     
-    }
-
-    .view-all {
-      text-align: right;
-      font-weight: bold;
-      margin-bottom: 1rem;
-    }
-
-    .view-all a {
-      color: black;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 25px;
-    }
-
-    .list-group-item-2 {
-      margin-bottom: 20px;
-      border-bottom: 1px solid grey;
-      padding: 10px;
-      text-decoration: none;
-      font-size: 20px;
-    }
-    .list-group-item-2:hover {
-      background: #ff9f43;
-    }
-
-    .list-group-item-2 a {
-      font-weight: bold;
-      color: black;
-      text-decoration: none;
-    }
+.advertise-button:hover {
+  background-color: #ff6b3b;
+}
